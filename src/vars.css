@@ -1,0 +1,44 @@
+:root {
+    --color-text: #2E2E2E;
+    --color-primary: #FF6F61;
+    --color-secondary: #2A9D8F;
+    --color-dark: #264653;
+    --color-bg: #EDEDED;
+    --color-accent: #FF6B6B; 
+    --color-text-light: #FFFFFF; 
+
+    --font-poppins: "Poppins", sans-serif;
+}
+
+body {
+    background-color: linear-gradient(to right, #f0f0f0, #e0e0e0);
+    color: var(--color-text);
+    font-family: var(--font-poppins);
+}
+
+a {
+    color: var(--color-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-dark);
+}
+
+button {
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--color-secondary);
+}
+
+header, footer {
+    background-color: var(--color-dark);
+    color: var(--color-bg);
+    padding: 1rem;
+}

@@ -1,0 +1,159 @@
+.publicationsContainer {
+    padding:30px 20px 10px;
+    background-color: papayawhip;
+    border-radius: 15px;
+    padding: 60px 20px 70px; 
+    margin: 79px 5%;
+    z-index: 1;
+}
+
+.publicationsTitle {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.cardsWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.publicationCard {
+    perspective: 1000px; 
+    flex: 1 1 300px;
+    padding-left: 2%; 
+}
+
+.cardInner {
+    position: relative;
+    width: 100%;
+    max-width: 390px;
+    height: 400px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.publicationCard:hover .cardInner {
+    transform: rotateY(180deg); 
+}
+
+.cardFront, .cardBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px; 
+}
+
+.cardFront {
+    background: #fff; 
+    z-index: 2; 
+    text-align: center;
+}
+
+.cardBack {
+    background: linear-gradient(to bottom right, #ADD8E6, #F0FFFF);
+
+
+    transform: rotateY(180deg); 
+    z-index: 1; 
+    color: #333;
+}
+
+.publicationImg {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.publicationTitle {
+    font-size: 1.25rem; 
+    font-weight: 700;
+    margin-top: 10px;
+    color: #333;
+}
+
+.publicationDetails {
+    font-size: 0.9rem; 
+    color: #666;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.publicationDescription {
+    font-size: 0.8rem; 
+    color: #444;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.publicationLink {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.publicationLink:hover {
+    background-color: #033406;
+}
+
+@media screen and (max-width: 760px) {
+    .publicationsContainer {
+        padding: 30px 10px; 
+        margin: 40px 2%; 
+    }
+
+    .publicationsTitle {
+        font-size: 24px; 
+    }
+
+    .cardsWrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px; 
+    }
+
+    .publicationCard {
+        width: 100%;
+        max-width: 350px; 
+        padding-left: 0; 
+        margin: 10px 0; 
+    }
+
+    .cardInner {
+        height: 300px; 
+    }
+
+    .publicationImg {
+        max-width: 90%; 
+        height: auto;
+    }
+
+    .publicationTitle {
+        font-size: 1rem; 
+    }
+
+    .publicationDetails {
+        font-size: 0.8rem; 
+    }
+
+    .publicationDescription {
+        font-size: 0.7rem; 
+    }
+}

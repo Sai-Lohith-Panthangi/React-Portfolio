@@ -1,0 +1,102 @@
+@import "../../vars.css";
+.container {
+    margin-top: 80px;
+    color: var(--color-text);
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    display: flex;          
+    flex-direction: column;   
+}
+
+.title {
+    color: #fff;
+    font-size: 41px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: linear-gradient(25deg, #003366, #002244, #003366);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 100%;
+    width: fit-content;
+    position: relative;
+    top: 0;
+    left: 37%;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.title::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #003366;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(1);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+}
+
+.title:hover::after {
+    transform: scaleX(0);
+}
+
+.title:hover {
+    transform: scale(1.1);
+    text-shadow: 0 0 15px rgba(0, 0, 255, 0.8);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    align-items: stretch;
+    justify-content: center;
+    padding-top: 30px;
+    perspective: 1000px;
+}
+
+@media screen and (max-width: 760px) {
+    .card {
+        max-width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .cardFront, .cardBack {
+        padding: 10px;
+    }
+
+    .image {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+    .skills {
+        gap: 5px;
+    }
+
+    .skill {
+        font-size: 10px;
+        padding: 3px 6px;
+    }
+
+    .link {
+        font-size: 14px;
+    }
+}

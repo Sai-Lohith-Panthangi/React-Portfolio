@@ -1,0 +1,95 @@
+@import "../../vars.css";
+
+.navbar {
+    background-color: #2A475E;
+    padding: 1rem 1.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.3s ease;
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none; 
+}
+
+.title {
+    color: #FFFFFF;
+    font-family: var(--font-poppins);
+    font-size: 2.5rem;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menuBtn {
+    display: none;
+    cursor: pointer;
+}
+
+.menuItems {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 1.2rem;
+    gap: 3rem;
+}
+
+.menuItems li a {
+    color: #FFFFFF;
+    font-family: var(--font-poppins);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.menuItems li a:hover {
+    color: var(--color-primary);
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.menuOpen {
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .menuBtn {
+        display: block;
+    }
+
+    .menuItems {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: var(--color-dark);
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        padding: 1rem;
+        display: none;
+    }
+
+    .menuItems li {
+        width: 100%;
+        text-align: right;
+    }
+
+    .menuItems li a {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .menuOpen {
+        display: flex;
+    }
+}

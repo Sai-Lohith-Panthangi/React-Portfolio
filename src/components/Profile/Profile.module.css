@@ -1,0 +1,147 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  padding-left: 10%;
+  background: linear-gradient(to right, #f0f0f0, #e0e0e0);
+  position: relative;
+  overflow: hidden;
+  min-height: 650px;
+}
+
+.textContainer {
+  max-width: 50%;
+  padding-right: 2rem;
+  z-index: 1;
+  color: #333;
+}
+
+.title {
+  font-size: 2.95rem;
+  margin-bottom: 1rem;
+  color: #333;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.contactBtn {
+  background: linear-gradient(135deg, #2A475E, #4b6cb7);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-size: 1.25rem;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contactBtn:hover {
+  background: linear-gradient(135deg, #4b6cb7, #2A475E);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.profileContainer {
+  position: relative;
+  width: 30%;
+  padding-left: 5%;
+  min-width: 300px;
+  height: 500px;
+  perspective: 1000px;
+}
+
+.profileImgWrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.6s, box-shadow 0.6s;
+  transform-origin: center;
+  z-index: 1;
+  animation: float 2s ease-in-out infinite;
+}
+
+.profileImgWrapper:hover {
+  transform: rotateY(180deg);
+  animation: none;
+}
+
+.profileImg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.profileImgBack {
+  transform: rotateY(180deg);
+  position: absolute;
+  width: 120%;
+  height: 100%;
+  backface-visibility: hidden;
+  object-fit: cover;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.glassEffect {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 0.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .textContainer {
+    max-width: 100%;
+    margin-bottom: 2rem;
+    align-items: center;
+  }
+
+  .profileContainer {
+    width: 80%;
+    height: 300px;
+    margin: 0;
+  }
+
+  .profileImgWrapper {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .profileImg,
+  .profileImgBack {
+    object-fit: contain;
+    position: absolute;
+  }
+}

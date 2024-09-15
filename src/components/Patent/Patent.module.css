@@ -1,0 +1,78 @@
+.patentContainer {
+    padding: 60px;
+    background: linear-gradient(to bottom, #87CEFA, #4682B4); 
+    color: #333;
+    text-align: center;
+}
+
+.patentTitle {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.patentContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.patentImageWrapper {
+    margin-bottom: 20px;
+}
+
+.patentImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.patentDetailsWrapper {
+    text-align: left;
+}
+
+.patentName {
+    font-size: 1.55rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.patentDetails {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.patentDescription {
+    font-size: 0.9rem;
+    margin: 20px 0;
+    color: #666;
+    text-align: justify;
+}
+
+.patentLink {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-weight: 600;
+    position: relative;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+
+.patentLink:hover {
+    background-color: #053504;
+}
