@@ -1,0 +1,11 @@
+{
+    "title": "Enhancement of Advanced Encryption Standard Algorithm to Secure IoT Devices",
+    "number": "INDIA 202221045319",
+    "inventors": "Co-Inventor and Contributor",
+    "jour": "33/2022",
+    "date": "August 19, 2022",
+    "description": "Cryptography has an important role in securing information which has gained prominence due to digitization. Exchange of sensitive personal data such as medical information tends to take place frequently throughout the globe; therefore, protecting data from unauthorized adversary access is imperative. Advanced Encryption Standard (AES) algorithm is one of the algorithms which is broadly employed because of its exemplary security and usage in extensive applications. This invention demonstrates a better algorithm as a fallback to the AES algorithm, if it were ever to be breached. Additionally, it solves the problem of implementing in simple IoT devices and is immune to cache collision timing attacks.",
+    "link": "https://search.ipindia.gov.in/DynamicUtility/Journal/Patent",
+    "image": "/patent/patent.png"
+  }
+  

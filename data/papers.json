@@ -1,0 +1,27 @@
+[
+    {
+      "title": "Driver Drowsiness Detection Using AI",
+      "journal": "International Journal of All Research Education and Scientific Methods (IJARESM)",
+      "date": "May 28, 2022",
+      "description": "This paper proposes a drowsiness detection system for drivers using eye closing rate and yawning. It utilizes computer vision to detect eyes and mouth from webcam footage of a driving simulation. When the system detects closed eyes for a certain duration, it issues a warning to alert the driver of potential drowsiness. The system operates effectively in various lighting conditions, providing real-time monitoring to enhance road safety.",
+      "link": "https://www.ijaresm.com/driver-drowsiness-using-ai",
+      "image": "papers/ijaresm.png"
+    },
+    {
+      "title": "A Hybrid Algorithm for Breast Cancer Detection Using Meta-Learning and ANN",
+      "journal": "International Journal of All Research Education and Scientific Methods (IJARESM)",
+      "date": "May 10, 2022",
+      "description": "This paper achieved a classification accuracy of 92% on the Wisconsin Breast Cancer Dataset, outperforming existing benchmark models. It utilized supervised and unsupervised learning models such as Random Forest, KNN, SVM, Logistic Regression, Ada Boost, Perceptron, and feature selection. Model performance was evaluated using metrics like Accuracy, Precision, Recall, F1-Score, and ROC-curve. The analysis was performed on the Wisconsin Breast Cancer Dataset comprising 569 instances.",
+      "link": "https://www.ijaresm.com/a-hybrid-algorithm-for-breast-cancer-detection-using-meta-learning-and-ann",
+      "image": "papers/ijaresm.png"
+    },
+    {
+      "title": "Smart Surveillance Using Computer Vision",
+      "journal": "International Journal of Innovative Science and Research Technology (IJISRT)",
+      "date": "June 15, 2021",
+      "description": "This paper reviews recent advancements in computer vision and image processing aimed at enhancing safety. It highlights the integration of innovative concepts into a prototype system by development teams. The paper emphasizes smart surveillance features such as monitoring, noise detection, face identification, and visitor detection through cameras integrated with Python-based computer vision algorithms. It discusses current progress and future development potential in this field.",
+      "link": "https://ijisrt.com/smart-surveillance-using-computer-vision",
+      "image": "papers/ijisrt.png"
+    }
+  ]
+  

@@ -1,0 +1,67 @@
+[
+  {
+    "title": "4S Navigation tool extension in Visual Studio Code",
+    "imageSrc": "projects/4s.png",
+    "description": ["Created the 4S Navigation Tool, an approved extension for Visual Studio Code.",
+    "Integrated key functionalities including Go to Definition, Sub-word Search, and Stack Overflow Search. Reduced time spent on searching for specific functions, variables, or classes.", "Received a 5/5 rating on the Visual Studio Code Marketplace, showcasing the extension’s effectiveness and user appreciation."],
+    "skills": ["Java", "JavaScript", "TypeScript", "VS Code"],
+    "source": "https://github.com/Sai-Lohith-Panthangi/4S-Navigation-tool-extension-in-VS-Code"
+  },
+  {
+    "title": "Full Stack Student Survey Web Application Development",
+    "imageSrc": "projects/fullstack2.png",
+    "description": ["Developed a full-stack web application using Angular for the frontend and Spring Boot for the backend.","Implemented Angular components and RESTful web services endpoints for CRUD operations.","Integrated MySQL with JPA and JDBC for efficient database management.","Empowered users with options for updating or deleting (CRUD Operations) their survey submissions, enhancing control and user experience."],
+    "skills": ["TypeScript", "Java", "Angular", "Spring Boot", "MySQL","Node.Js","REST API"],
+    "source": "https://github.com/Sai-Lohith-Panthangi/Prospective-Student-Survey-Full-Stack-Web-Application-Development"
+  },
+  {
+    "title": "AWS-Based Dynamic Web Application in Amazon S3 and EC2",
+    "imageSrc": "projects/fullstack.png",
+    "description": [
+      "Developed web application of personal portfolio, department page, and a student survey form using HTML, CSS, JavaScript, Ajax, and Bootstrap.",
+      "Hosted on Amazon S3 and EC2 instance for seamless deployment and bootstrap dynamic navigation.",
+      "Implemented cookies for personalized greetings based on user's name and time of day.",
+      "Enhanced survey form functionality with JavaScript for computation and validation.",
+      "Utilized Ajax and JSON for automatic city/state population based on zip code input."
+    ],
+    "skills": ["HTML", "CSS", "JavaScript", "Ajax", "Bootstrap", "S3", "EC2"],
+    "source": "https://github.com/Sai-Lohith-Panthangi/AWS-based-Dynamic-Web-Application-in-Amazon-S3-and-EC2"
+  },
+  {
+    "title": "YouTube Insight Generator with Pinecone and OpenAI (RAG application)",
+    "imageSrc": "projects/youtube.png",
+    "description": [
+      "Developed a RAG application to enable users to ask questions about YouTube videos.",
+      "Implemented video transcription using OpenAI's Whisper and split transcripts into manageable chunks for efficient processing.",
+      "Integrated Pinecone for storing and retrieving text chunks based on query similarity.",
+      "Utilized OpenAI's GPT-3.5-turbo for generating accurate answers to user queries.",
+      "Automated the transcription, storage, retrieval, and question-answering process, ensuring seamless user interaction."
+    ],
+    "skills": ["Python", "Pinecone", "Whisper", "OpenAI", "Data Processing", "Version Control", "API integration"],
+    "source": "https://github.com/Sai-Lohith-Panthangi/RAG-application-using-Pincone-and-OpenAI"
+  },  
+  {
+    "title": "Breast Cancer Detection Using Meta Learning and ANN",
+    "imageSrc": "projects/cancer.png",
+    "description": [
+      "Analyzed various methods used by researchers, including their advantages and limitations, for breast cancer detection.",
+      "Utilized supervised and unsupervised learning models such as Random Forest, KNN, SVM, Logistic Regression, Ada Boost, and Perceptron.",
+      "Used the Wisconsin Breast Cancer Dataset, which contains 569 instances of breast cancer patients, for model training and evaluation.",
+      "Evaluated model performance using metrics like Accuracy, Precision, Recall, F1-Score, and ROC-curve."
+    ],
+    "skills": ["Data Analysis", "Machine Learning", "K-Nearest Neighbors (KNN)", "Logistic Regression", "Perceptron", "Supervised Learning"],
+    "source": "https://www.ijaresm.com/a-hybrid-algorithm-for-breast-cancer-detection-using-meta-learning-and-ann"
+  },
+  {
+    "title": "Smart Surveillance Using Computer Vision",
+    "imageSrc": "projects/smart.png",
+    "description": [
+      "Focused on Computer Vision to expand the capabilities of image processing, including scene content understanding, object tracking, and classification.",
+      "Developed a GUI and implemented machine learning algorithms for real-time object detection and tracking.",
+      "Applied image processing techniques to enhance object classification accuracy.",
+      "Utilized tools such as Atom and Eclipse for writing Python scripts to support the surveillance system."
+    ],
+    "skills": ["Algorithms", "Machine Learning", "Python (Programming Language)", "Graphical User Interface (GUI)", "Computer Vision"],
+    "source": "https://github.com/Sai-Lohith-Panthangi/Smart-Surveillance-Using-Computer-Vision"
+  } 
+]

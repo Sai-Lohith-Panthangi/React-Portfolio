@@ -1,0 +1,29 @@
+[
+  {
+    "role": "Systems Engineer (Full Stack Developer)",
+    "organisation": "Tata Consultancy Services",
+    "startDate": "August 2021",
+    "endDate": "December 2022",
+    "experiences": [
+      "Worked as a Systems Engineer (Full Stack Web Developer) for Verizon clients, implementing full-stack solutions encompassing both front-end (JavaScript, React.js) and back-end (Java 11, Spring) development.",
+      "Innovated functional applications for wireline and wireless systems, integrating user-friendly features like bookmarking, filters, and validations. Achieved a 30% increase in user engagement metrics through collaborative efforts.",
+      "Revamped Type software by debugging over 500 lines of code per sprint, enhancing user interfaces, and optimizing functionalities. Reduced crashes by 40% and developed RESTful APIs with Spring Boot for smooth client-server communication.",
+      "Actively participated in Agile teams, contributing to sprint planning (25 sprints), development, and retrospectives, leading to increased productivity and accelerated project delivery by 10%.",
+      "Secured a top 100 ranking among 65,000 employees in the Digital Capability Assessment (DCA) conducted across India by TCS, earning a 100% salary hike as a compensation reward."
+    ],
+    "imageSrc": "experience/tcs.png"
+  },
+  {
+    "role": "Full Stack Developer Intern",
+    "organisation": "Spectra Assistive Technologies",
+    "startDate": "January 2021",
+    "endDate": "July 2021",
+    "experiences": [
+      "Designed pioneering user interfaces utilizing modern JavaScript frameworks, HTML, and CSS.",
+      "Implemented responsive design practices resulting in a 40% increase in web app engagement and a 25% boost in user retention.",
+      "Collaborated with cross-functional teams to integrate RESTful APIs, enhancing the application’s functionality and ensuring seamless data flow between the frontend and backend systems.",
+      "Optimized application performance by implementing lazy loading and code splitting techniques, reducing page load times by 30%."
+    ],
+    "imageSrc": "experience/spectra.png"
+  }
+]

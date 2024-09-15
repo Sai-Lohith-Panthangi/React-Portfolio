@@ -1,0 +1,34 @@
+[
+  {
+    "name": "AWS Certified Developer – Associate",
+    "organization": "Amazon Web Services (AWS)",
+    "dateReceived": "September 2024",
+    "description": "Demonstrates proficiency in developing, deploying, and debugging cloud-based applications using AWS. Covers core AWS services, best practices for security, and hands-on experience in the AWS environment.",
+    "imageSrc": "certification/aws.png",
+    "link": "https://www.credly.com/badges/807ebc27-c1bf-460d-8f0c-db0632f52f62/linked_in_profile"
+}, 
+  {
+      "name": "AWS Certified Cloud Practitioner",
+      "organization": "Amazon Web Services (AWS)",
+      "dateReceived": "May 2024",
+      "description": "Foundational knowledge of AWS Cloud services including DynamoDB, ECS, S3, Lambda, and more.",
+      "imageSrc": "certification/aws.png",
+      "link": "https://www.credly.com/badges/807ebc27-c1bf-460d-8f0c-db0632f52f62/linked_in_profile"
+  },
+  {
+      "name": "Full Stack Web Developer Assessment",
+      "organization": "IBM",
+      "dateReceived": "May 2024",
+      "description": "Proficiency in Full Stack Development including MySQL, Javascript, Node.js, React, Spring Boot, and MongoDB.",
+      "imageSrc": "certification/ibm.png",
+      "link": "https://www.coursera.org/account/accomplishments/records/P4PJ7BN82PLP"
+  },
+  {
+      "name": "Foundations of User Experience (UX) Design",
+      "organization": "Google",
+      "dateReceived": "April 2024",
+      "description": "Introduction to UX Design principles, user-centered design, and wireframing.",
+      "imageSrc": "certification/google.png",
+      "link": "https://www.coursera.org/account/accomplishments/records/7UECJVC44SPN"
+  }
+]
